@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+}
+p{
+    color: black;
+    font-style: bold;
+    font-size: 16px;        
+}
+input[type="text"]{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button[type="submit"]{
+    padding: 5px 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+button[type="submit"]:hover{
+    background-color: white;
+    color: purple;
+}
+button[type="button"]{
+    background-color: red;
+    color: white;
+}

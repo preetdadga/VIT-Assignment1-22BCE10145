@@ -1,0 +1,51 @@
+        /* Vertical Navigation Bar */
+        .vertical-nav {
+            width: 200px;
+            border: 2px solid black;
+        }
+        .vertical-nav a {
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .vertical-nav a.home {
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+        }
+        .vertical-nav a:not(.home) {
+            background-color: lightblue;
+            color: blue;
+        }
+        /* Highlight the active/selected option */
+        .vertical-nav a.active {
+            background-color: darkblue;
+            color: white;
+        }
+
+        /* Horizontal Navigation Bar */
+        .horizontal-nav {
+            display: flex;
+            border: 2px solid black;
+            width: max-content;
+        }
+        .horizontal-nav a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            border-right: 2px solid blue;
+            background-color: lightgray;
+        }
+        .horizontal-nav a.home {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
+        .horizontal-nav a:last-child {
+            border-right: none;
+        }
+        .horizontal-nav a.active {
+            background-color: darkblue;
+            color: white;
+        }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Task 2</title>
+</head>
+<body>
+  <h1>Alphabetical Order Output:</h1>
+  <p id="result"></p>
+
+  <script>
+    function sortString(str) {
+      return str.split('').sort().join('');
+    }
+
+    const input = 'webmaster';
+    document.getElementById('result').textContent = sortString(input);
+  </script>
+</body>
+</html>

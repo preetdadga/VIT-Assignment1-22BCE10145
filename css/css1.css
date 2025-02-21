@@ -1,0 +1,21 @@
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 5px;
+        background-color: lightblue;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    
+    th {
+        font-weight: bold;
+        background-color: lightblue;
+    }
+
